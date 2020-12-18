@@ -1,0 +1,24 @@
+.logo {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 70px;
+    
+    img {
+        margin-left: 4rem;
+        border-radius: 200px;
+        height: 50px;
+        width: 50px;
+        box-shadow: 4px 4px 4px black;
+    }
+
+    span {
+        background: white;
+        margin-left: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: georgia, serif;
+        font-style: oblique;
+    }
+}
+
