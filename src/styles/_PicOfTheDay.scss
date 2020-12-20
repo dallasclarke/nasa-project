@@ -1,0 +1,28 @@
+.pic-of-the-day {
+    display: flex;
+    
+    
+    img {
+        width: 680px;
+        height: 600px;
+        margin-top: 20rem;
+    }
+
+    div {
+        width: 45rem;
+        margin-left: 3rem;
+        margin-top: 17rem;
+
+        h1 {
+            font-family: Impact, fantasy;
+        }
+        
+        p {
+            font-family: Andale Mono, monospace;
+            margin-top: 2rem;
+            font-size: 19px;
+            font-weight: 600;
+        }
+    }
+}
+

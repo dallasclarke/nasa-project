@@ -14,7 +14,7 @@ async function fetchPictureOfTheDay() {
   return await response.json();
 }
 
-const Home = () => {
+const PicOfTheDay = () => {
   const [picOfTheDayDetails, setPicOfTheDayDetails] = useState(null);
   const [requestError, setRequestError] = useState("");
 
@@ -36,10 +36,15 @@ const Home = () => {
   }
 
   return (
-    <div className="home">
-      <img src={picOfTheDayDetails.url} alt={picOfTheDayDetails.title} />
+    <div className="pic-of-the-day">
+        <img src={picOfTheDayDetails.url} alt={picOfTheDayDetails.title} />
+      <div>
+        <h1>{picOfTheDayDetails.title}</h1>
+        <h3>{picOfTheDayDetails.date}</h3>
+        <p>{picOfTheDayDetails.explanation}</p>
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default PicOfTheDay;
