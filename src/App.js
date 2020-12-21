@@ -11,7 +11,7 @@ import MarsPhotos from "./components/MarsPhotos"
 function App() {
   return (
     <div className="App">
-      
+      <NavBar />
       <MarsPhotos /> 
       {/* <PicOfTheDay /> */}
     </div>
