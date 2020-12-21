@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import PicOfTheDay from "./components/PicOfTheDay";
 import MarsPhotos from "./components/MarsPhotos"
+import SearchBar from "./components/SearchBar";
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Switch>
         {/* <MarsPhotos />  */}
         {/* <PicOfTheDay /> */}
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={SearchBar} />
         <Route exact path="/picoftheday" component={PicOfTheDay} />
         <Route exact path="/marsphotos" component={MarsPhotos} />
       </Switch>
